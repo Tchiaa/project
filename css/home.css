@@ -1,0 +1,22 @@
+@import 'nav.css';
+
+.hero-section{
+width: 100px; 
+height: calc(100vh - 120px);
+background-image: url('../img/ski.png');
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.sub-header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 300;
+
+}

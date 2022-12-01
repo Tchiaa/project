@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>online shop</title>
-    <link rel="stylesheet" href="css/home.css">
-</head>
-<body>
-    <nav class="navbar">
+const createNav = () => {
+    let nav = document.querySelector('.navbar');
+    nav.innerHTML = '
         <div class="nav">
         <img src="img/sss.svg.png" class="logo" alt="">
         <div class="nav-items">
@@ -28,18 +20,6 @@
             <li class="link-item"> <a href="#" class="link">kids</a></li>
             <li class="link-item"> <a href="#" class="link">accessories</a></li>
         </ul>
-    </nav>
-    <!-- hero section -->
-    <header class="hero-section">
-        <div class="content">
-            <p class="sub-header">Best choise for all time </p>
-        </div>
-
-    </header>
-
-
-
-    <script src="js/nav.js"></script>
-    
-</body>
-</html>
+';
+}
+createNav();
