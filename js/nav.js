@@ -1,6 +1,6 @@
 const createNav = () => {
     let nav = document.querySelector('.navbar');
-    nav.innerHTML = '
+    nav.innerHTML = `
         <div class="nav">
         <img src="img/sss.svg.png" class="logo" alt="">
         <div class="nav-items">
@@ -20,6 +20,6 @@ const createNav = () => {
             <li class="link-item"> <a href="#" class="link">kids</a></li>
             <li class="link-item"> <a href="#" class="link">accessories</a></li>
         </ul>
-';
+`;
 }
 createNav();
